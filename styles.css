@@ -4,6 +4,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('/img/beach.jpeg');
+    gap: 16px;
+    height: =100vh;
+    
 }
 
 h1 {
@@ -15,13 +19,33 @@ h1 {
 p {
     width: 600px;
     text-align: center;
+    background-color: antiquewhite;
+    padding: 8px;
 }
 
 button {
     font-size: 24px;
     border-radius: 8px;
+    width: 200px;
     background-color: blueviolet;
     color: antiquewhite;
     font-weight: bold;
     padding: 8px;
+}
+
+div {
+    background-color: antiquewhite;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#count-btn {
+    background-color: green;
+
+}
+
+#save-btn {
+    background-color: red;
+
 }
